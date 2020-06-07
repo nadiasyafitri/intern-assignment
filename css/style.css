@@ -60,6 +60,13 @@
   border-color: #835fac;
 }
 
+#button{
+  background-color: #835fac;
+  border-color: #835fac;
+  text-align: center;
+}
+
+
 .job-list-banner {
   background-color: #f8f8f8;
   margin-top: 50px;
@@ -70,6 +77,11 @@
   border-color: #7f5fa3;
   color: #7f5fa3;
   width: 200px;
+}
+
+#button-outline:active{
+  border-color: #7f5fa3;
+  background-color: #835fac;
 }
 
 .btn-outline-primary:hover,
