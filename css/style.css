@@ -97,9 +97,8 @@
   width: 100%;
   color: white;
   text-align: center;
-  background-image: url('../img/footer-kawung.png');
+  background-image: url("../img/footer-kawung.png");
 }
-
 
 .footer-desc {
   text-align: left;
@@ -128,11 +127,11 @@
   margin-right: 20px;
 }
 
-a:active,	
-a:hover,	
-a:visited,	
-a:link{	
-  color: #f8f8f8;	
+a:active,
+a:hover,
+a:visited,
+a:link {
+  color: #f8f8f8;
 }
 
 .amartha-office {
@@ -461,7 +460,7 @@ a:link{
   }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
   .responsiblities-box {
     display: flex;
     justify-content: center;
@@ -510,7 +509,7 @@ a:link{
     margin-top: 70px;
   }
 
-  .link-footer{
+  .link-footer {
     margin-left: 50px;
   }
 
@@ -518,5 +517,26 @@ a:link{
     margin-left: 80px;
     margin-top: 70px;
   }
+}
 
+@media screen and (max-width: 360px) {
+  .col-4 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0px;
+    margin-left: 40px;
+    padding-bottom: 20px;
+  }
+
+  .col-md-6 {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+
+  .amartha-office {
+    width: 200px;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 15px;
+  }
 }
